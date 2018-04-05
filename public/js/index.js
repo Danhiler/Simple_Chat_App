@@ -13,6 +13,7 @@ socket.on('newUser',(message,users) => {
 if(userName==="") {userName=users[users.length-1]}
   li.text(`${message.from}: ${message.text}`)
   jQuery('#messages').append(li)
+  jQuery('#users').val('');
   jQuery('#users').append("You are "+userName+"<br><br>")
   jQuery('#users').append(users.join("<br>"))
 
