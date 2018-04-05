@@ -4,8 +4,8 @@
   "description": "",
   "main": "public/index.html",
   "scripts": {
-    "start": "node server/server.js",
-
+  "start": "node server/server.js",
+  "test": ""
   },
   "engines": {
     "node": "9.5.0"
